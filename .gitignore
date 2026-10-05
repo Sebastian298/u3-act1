@@ -1,0 +1,49 @@
+# Bytecode y caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Empaquetado e instalación
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+# Herramientas y cobertura
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Entorno y secretos
+.env
+.env.*
+
+# Sistema y editores
+.DS_Store
+.idea/
+.vscode/
+
+# Documentación local: se conserva en el equipo y no se sube al remoto.
+# README.md sí se versiona porque contiene las instrucciones de ejecución.
+*.md
+!README.md
+docs/
+*.pdf
+*.html
+REPORTE.md
+REPORTE.pdf
+REPORTE.html
